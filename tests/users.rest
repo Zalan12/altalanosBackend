@@ -1,0 +1,15 @@
+
+@host = http://localhost
+@port=3000
+
+@url={{host}}:{{port}}
+### GET * FROM tables 
+
+GET {{url}}/termek
+Content-Type: application/json
+
+### GET one record from tables 
+
+GET {{url}}/termek/15
+Content-Type: application/json
+
