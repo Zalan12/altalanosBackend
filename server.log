@@ -18,3 +18,97 @@
 [2025-10-22 12:18:45] [32minfo[39m:Server listening on http://localhost:3000
 [2025-10-22 12:18:46] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
 [2025-10-22 12:18:48] [32minfo[39m:GET /termek - 3 record(s) Sent | 3ms
+[2025-10-22 12:19:19] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:21:52] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:21:58] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:23:29] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
+[2025-11-03 09:23:33] [32minfo[39m:GET /termek - 3 record(s) Sent | 2ms
+[2025-11-03 09:23:34] [31merror[39m:[DB error]: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
+[2025-11-03 09:25:09] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:27:25] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:28:08] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:29:18] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:29:21] [31merror[39m:[DB error]: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '','kategoriaNev') VALUES('2,Szius)' at line 1
+[2025-11-03 09:30:10] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:30:12] [32minfo[39m:POST /kategoria - 1 record(s) affected | 19ms
+[2025-11-03 09:30:44] [31merror[39m:[DB error]: ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+[2025-11-03 09:30:50] [32minfo[39m:POST /kategoria - 1 record(s) affected | 2ms
+[2025-11-03 09:53:43] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:57:20] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:58:56] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 09:59:34] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 10:00:42] [32minfo[39m:POST /kategoria - 1 record(s) affected | 17ms
+[2025-11-03 10:01:19] [32minfo[39m:PATCH /kategoria/3 - 0 record(s) affected | 1ms
+[2025-11-03 10:01:57] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 10:02:03] [32minfo[39m:PATCH /kategoria/3 - 1 record(s) affected | 19ms
+[2025-11-03 10:14:27] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 10:15:34] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 10:27:20] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:01:23] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:01:55] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:02:35] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:03:24] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:03:43] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:09:54] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:10:13] [32minfo[39m:POST /users/login - 0 record(s) affected | 17ms
+[2025-11-03 11:10:34] [32minfo[39m:POST /users/login - 1 record(s) affected | 2ms
+[2025-11-03 11:16:37] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:20:58] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:21:53] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:22:22] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:24:18] [31merror[39m:[DB error]: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?,?) VALUES(function (encoder) {
+	            return (encoder || Hex).strin...' at line 1
+[2025-11-03 11:25:39] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:25:49] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:26:28] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:27:18] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:27:36] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:27:39] [32minfo[39m:POST /users/registration - 1 record(s) affected | 18ms
+[2025-11-03 11:28:11] [32minfo[39m:POST /users/login - 1 record(s) affected | 2ms
+[2025-11-03 11:49:58] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:49:59] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:50:03] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:50:12] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:51:04] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:52:50] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:53:08] [32minfo[39m:POST /users/login - 0 record(s) affected | 17ms
+[2025-11-03 11:53:14] [32minfo[39m:POST /users/login - 0 record(s) affected | 1ms
+[2025-11-03 11:53:37] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:53:45] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:53:53] [32minfo[39m:POST /users/login - 1 record(s) affected | 18ms
+[2025-11-03 11:54:38] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:54:57] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:55:48] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 11:56:49] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:00:07] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:01:50] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:02:47] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:07:03] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:07:27] [32minfo[39m:POST /users/registration - 0 record(s) affected | 17ms
+[2025-11-03 12:07:27] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:07:51] [32minfo[39m:POST /users/registration - 0 record(s) affected | 2ms
+[2025-11-03 12:07:51] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:11:40] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:11:46] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:12:05] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:12:07] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:12:18] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:12:25] [32minfo[39m:POST /users/login - 1 record(s) affected | 2ms
+[2025-11-03 12:12:31] [31merror[39m:[DB error]: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+[2025-11-03 12:13:09] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:13:11] [32minfo[39m:POST /users/registration - 1 record(s) affected | 17ms
+[2025-11-03 12:14:09] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:14:45] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:14:51] [32minfo[39m:POST /users/registration - 1 record(s) affected | 20ms
+[2025-11-03 12:20:27] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:21:06] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:23:00] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:24:06] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:24:48] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:25:13] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:26:22] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:27:32] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-03 12:27:38] [32minfo[39m:GET /users/id/eq/5 - 0 record(s) Sent | 18ms
+[2025-11-03 12:28:03] [32minfo[39m:GET /users/role/eq/user - 1 record(s) Sent | 1ms
+[2025-11-03 12:28:34] [32minfo[39m:POST /users/registration - 1 record(s) affected | 3ms
+[2025-11-03 12:28:35] [32minfo[39m:GET /users/role/eq/user - 2 record(s) Sent | 1ms

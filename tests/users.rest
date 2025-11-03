@@ -13,3 +13,50 @@ Content-Type: application/json
 GET {{url}}/termek/15
 Content-Type: application/json
 
+###POST DATA into table
+
+POST {{url}}/kategoria
+Content-Type: application/json
+
+ {
+    "id":3,
+    "kategoriaNev":"Teszt"
+ }
+
+
+###UPDATE record in table
+
+PATCH {{url}}/kategoria/3
+Content-Type: application/json
+
+ {
+    "kategoriaNev":"Valamicske"
+ }
+
+###Loginteszt
+POST {{url}}/users/login
+Content-Type: application/json
+
+{
+    "email":"dalivallas@turr.hu",
+    "password":"Validali123"
+}
+
+
+###Regteszt
+
+POST {{url}}/users/registration
+Content-Type: application/json
+
+{
+    "name":"Bindo",
+    "email":"bindo@turr.hu",
+    "password":"Baboon123",
+    "confirm":"Baboon123"
+    
+}
+
+###
+
+GET {{url}}/users/role/eq/user
+Content-Type: application/json
