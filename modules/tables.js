@@ -5,6 +5,7 @@ const logger = require('../utils/logger');
 const { error } = require('winston');
 const passwdRegExp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
 var SHA1 = require("crypto-js/sha1");
+const multer=require('multer');
 
 
 //Select All records

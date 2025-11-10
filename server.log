@@ -112,3 +112,103 @@
 [2025-11-03 12:28:03] [32minfo[39m:GET /users/role/eq/user - 1 record(s) Sent | 1ms
 [2025-11-03 12:28:34] [32minfo[39m:POST /users/registration - 1 record(s) affected | 3ms
 [2025-11-03 12:28:35] [32minfo[39m:GET /users/role/eq/user - 2 record(s) Sent | 1ms
+[2025-11-03 12:29:49] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:16:52] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:17:15] [32minfo[39m:POST /users/registration - 1 record(s) affected | 22ms
+[2025-11-10 08:19:09] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:20:34] [32minfo[39m:POST /users/registration - 1 record(s) affected | 20ms
+[2025-11-10 08:20:58] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:20:59] [32minfo[39m:POST /users/login - 1 record(s) affected | 17ms
+[2025-11-10 08:21:56] [32minfo[39m:POST /users/login - 1 record(s) affected | 1ms
+[2025-11-10 08:25:21] [32minfo[39m:POST /users/login - 1 record(s) affected | 1ms
+[2025-11-10 08:30:10] [32minfo[39m:POST /users/login - 0 record(s) affected | 1ms
+[2025-11-10 08:31:08] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:31:12] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:31:13] [32minfo[39m:POST /users/login - 0 record(s) affected | 16ms
+[2025-11-10 08:31:52] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:32:59] [32minfo[39m:POST /users/login - 0 record(s) affected | 18ms
+[2025-11-10 08:37:09] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:37:10] [32minfo[39m:POST /users/login - 1 record(s) affected | 18ms
+[2025-11-10 08:44:48] [32minfo[39m:POST /users/login - 0 record(s) affected | 1ms
+[2025-11-10 08:57:19] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:57:19] [32minfo[39m:POST /users/login - 1 record(s) affected | 18ms
+[2025-11-10 08:57:42] [32minfo[39m:POST /users/login - 0 record(s) affected | 2ms
+[2025-11-10 08:57:50] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 08:58:40] [32minfo[39m:POST /users/login - 1 record(s) affected | 17ms
+[2025-11-10 09:08:20] [32minfo[39m:POST /users/registration - 1 record(s) affected | 3ms
+[2025-11-10 09:09:54] [32minfo[39m:POST /users/registration - 1 record(s) affected | 4ms
+[2025-11-10 09:10:23] [32minfo[39m:POST /users/login - 0 record(s) affected | 1ms
+[2025-11-10 09:10:28] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 09:12:58] [32minfo[39m:POST /users/login - 0 record(s) affected | 17ms
+[2025-11-10 09:52:40] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 09:52:41] [32minfo[39m:POST /users/login - 1 record(s) affected | 17ms
+[2025-11-10 10:07:59] [32minfo[39m:POST /users/login - 0 record(s) affected | 3ms
+[2025-11-10 10:13:57] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 10:13:58] [32minfo[39m:POST /users/login - 1 record(s) affected | 18ms
+[2025-11-10 10:14:24] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:14:38] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:14:39] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:14:43] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:14:56] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:15:13] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:15:29] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 10:15:31] [31merror[39m:[DB error]: ER_NO_SUCH_TABLE: Table '2025_katicabufe.pizzas' doesn't exist
+[2025-11-10 10:16:17] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 10:16:19] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 34ms
+[2025-11-10 10:18:03] [32minfo[39m:POST /users/login - 1 record(s) affected | 2ms
+[2025-11-10 10:18:06] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:18:15] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:18:21] [32minfo[39m:GET /pizzas/3 - 1 record(s) Sent | 1ms
+[2025-11-10 10:18:23] [32minfo[39m:GET /pizzas/name/eq/Sonka-gombas - 0 record(s) Sent | 1ms
+[2025-11-10 10:18:24] [32minfo[39m:PATCH /pizzas/3 - 1 record(s) affected | 4ms
+[2025-11-10 10:18:27] [32minfo[39m:GET /pizzas/name/eq/Sonka-gombas - 1 record(s) Sent | 0ms
+[2025-11-10 10:18:27] [32minfo[39m:PATCH /pizzas/3 - 1 record(s) affected | 1ms
+[2025-11-10 10:18:28] [32minfo[39m:GET /pizzas/name/eq/Sonka-gombas - 1 record(s) Sent | 1ms
+[2025-11-10 10:18:28] [32minfo[39m:PATCH /pizzas/3 - 1 record(s) affected | 1ms
+[2025-11-10 10:18:34] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:18:45] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:18:48] [32minfo[39m:GET /pizzas/2 - 1 record(s) Sent | 1ms
+[2025-11-10 10:18:51] [32minfo[39m:GET /pizzas/2 - 1 record(s) Sent | 1ms
+[2025-11-10 10:18:54] [32minfo[39m:GET /pizzas/3 - 1 record(s) Sent | 0ms
+[2025-11-10 10:18:58] [32minfo[39m:GET /pizzas/name/eq/Sonka-gomba - 0 record(s) Sent | 1ms
+[2025-11-10 10:18:58] [32minfo[39m:PATCH /pizzas/3 - 1 record(s) affected | 3ms
+[2025-11-10 10:19:01] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:19:58] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:21:06] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:23:44] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:23:57] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:24:36] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:26:34] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:27:08] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:27:32] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:27:52] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:28:21] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:30:44] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 0ms
+[2025-11-10 10:32:07] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:33:05] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 10:33:16] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 10:35:21] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:25:43] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:25:48] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:25:49] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:25:49] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 0ms
+[2025-11-10 11:26:10] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:26:10] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:27:18] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 2ms
+[2025-11-10 11:27:25] [32minfo[39m:GET /pizzas/name/eq/Logger - 0 record(s) Sent | 1ms
+[2025-11-10 11:28:17] [32minfo[39m:GET /pizzas/0 - 0 record(s) Sent | 0ms
+[2025-11-10 11:28:38] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 11:34:44] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:04:59] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:05:44] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:06:54] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 0ms
+[2025-11-10 12:07:03] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:07:10] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 0ms
+[2025-11-10 12:07:19] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:13:43] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:13:58] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 0ms
+[2025-11-10 12:18:53] [32minfo[39m:Server listening on http://localhost:3000
+[2025-11-10 12:19:18] [32minfo[39m:POST /users/login - 1 record(s) affected | 18ms
+[2025-11-10 12:19:19] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 3ms
+[2025-11-10 12:19:49] [32minfo[39m:GET /pizzas - 6 record(s) Sent | 1ms
+[2025-11-10 12:27:31] [32minfo[39m:Server listening on http://localhost:3000
