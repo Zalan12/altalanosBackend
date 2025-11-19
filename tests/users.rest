@@ -60,3 +60,26 @@ Content-Type: application/json
 
 GET {{url}}/users/role/eq/user
 Content-Type: application/json
+
+
+###
+
+GET {{url}}/orders/user/2
+Content-Type: application/json
+
+###SEND email
+
+POST {{url}}/sendemail
+Content-Type: application/json
+
+{
+    "template":"registration",
+    "to":"miwax25996@canvect.com",
+    "subject":"Halo",
+    "data":{
+        "username":"Sándor",
+        "email":"sanyisandor@gmail.com",
+        "password":"TitkosJelszo123",
+        "url":"http://localhost:4200"
+    }
+}

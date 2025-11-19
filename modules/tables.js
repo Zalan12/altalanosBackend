@@ -6,7 +6,21 @@ const { error } = require('winston');
 const passwdRegExp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
 var SHA1 = require("crypto-js/sha1");
 const multer=require('multer');
+const nodemailer = require("nodemailer");
+const path=require('path');
+const fs=require('fs');
+let ejs=require('ejs');
 
+
+
+var transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST,
+  port: process.env.SMTP_PORT,
+  auth: {
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS
+  }
+});
 
 //Select All records
 router.get('/:table', (req, res) => {
@@ -21,6 +35,63 @@ router.get('/:table/:id', (req, res) => {
   const table = req.params.table;
   const id = req.params.id;
   query(`SELECT * FROM ${table} WHERE id=?`, [id], (error, results) => {
+    if (error) return res.status(500).json({ errno: error.errno, msg: 'Baj van geco' });
+    res.status(200).json(results);
+  }, req);
+})
+
+//Select one record from table by userId
+router.get('/:table/user/:userId', (req, res) => {
+  const table = req.params.table;
+  const userId = req.params.userId;
+  query(`SELECT 
+    p.name AS pizza_nev,
+    o.status AS rendeles_statusz,
+    o.total AS rendeles_ara,
+    o.created_at AS kelt,
+    oi.quantity AS mennyiseg,
+    p.description AS leiras
+FROM order_items oi
+JOIN orders o ON oi.order_id = o.id
+JOIN pizzas p ON oi.pizza_id = p.id
+WHERE o.user_id = ?`, [userId], (error, results) => {
+    if (error) return res.status(500).json({ errno: error.errno, msg: 'Baj van geco' });
+    res.status(200).json(results);
+  }, req);
+})
+
+
+//SENDING email
+
+router.post('/sendemail',async(req,res)=>{
+  const{to, subject, template, data}=req.body;
+  if(!to||!subject||!template){
+    return res.status(400).send({error:"Hiányzó adatok!"})
+}
+
+try{
+  await transporter.sendMail({
+    from:process.env.ADMINMAIL,
+    to:to,
+    subject:subject,
+    html:await renderTemplate(template,data|| {}),
+  })
+
+  return res.status(200).send({message:"Az email küldése sikeres!"})
+}
+catch(err){
+  console.log(err);
+  return res.status(500).send({error:"Hiba z email kulesekor"})
+}
+
+});
+
+
+//Select one record from table by id
+router.get('/:table/email', (req, res) => {
+  const table = req.params.table;
+  const email = req.params.email;
+  query(`SELECT * FROM ${table} WHERE email=?`, [email], (error, results) => {
     if (error) return res.status(500).json({ errno: error.errno, msg: 'Baj van geco' });
     res.status(200).json(results);
   }, req);
@@ -223,6 +294,12 @@ function getOp(op){
   }
   return op;
 }
+
+async function renderTemplate(templateName,data)
+{
+    const tmpFile= path.join(__dirname,"..","templates",templateName +'.ejs')
+    return await ejs.renderFile(tmpFile,data);
+  }
 
 module.exports = router;
 
